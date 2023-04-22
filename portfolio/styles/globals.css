@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('./minecraft-font/Minecraft.eot');
+  src: url('./minecraft-font/Minecraft.eot') format('embedded-opentype'),
+      url('./minecraft-font/Minecraft.woff2') format('woff2'),
+      url('./minecraft-font/Minecraft.woff') format('woff'),
+      url('./minecraft-font/Minecraft.ttf') format('truetype'),
+      url('./minecraft-font/Minecraft.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  font-family: 'Minecraft';
+  font-weight: normal;
+  font-style: normal;
+}
