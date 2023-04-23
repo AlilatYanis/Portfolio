@@ -4,6 +4,7 @@ import styles from "@/styles/Mide.module.css";
 export default function Mide() {
   const [age, setAge] = useState<number | null>(null);
 
+  // Auto increment age
   useEffect(() => {
     const birthDate: Date = new Date("2004-09-20");
     const today: Date = new Date();

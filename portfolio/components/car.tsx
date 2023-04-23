@@ -5,21 +5,21 @@ import styles from "../styles/Car.module.scss";
 const slides = [
   {
     title: "Hyrule castle", // Titre
-    image: "./castle.png", // picture
+    image: "./project/castle.png", // picture
     lien: "/theForge", // link of project or page
     color: "#49B6FF", // color of Titre
   },
   {
     title: "Recraft",
-    image: "./recraft.png",
+    image: "./project/recraft.png",
     lien: "/theForge",
     color: "#49B6FF",
   },
   {
-    title: "Calendrier", // Titre
-    image: "./defietna.png", // picture
-    lien: "/theForge", // link of project or page
-    color: "#49B6FF", // color of Titre
+    title: "Calendrier",
+    image: "./project/defietna.png",
+    lien: "/theForge",
+    color: "#49B6FF",
   },
 ];
 

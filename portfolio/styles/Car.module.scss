@@ -1,3 +1,4 @@
+// container of the project
 .container {
     text-align: center;
     justify-content: center;
@@ -5,7 +6,7 @@
     background-color: #53201c;
     padding-bottom: 50px;
 }
-
+// title
 .image {
     width: 50%;
     margin-bottom: 1rem;
@@ -31,7 +32,7 @@
 }
 
 .div {
-    background-color: #53201c;
+    background-color: #53201c; //background of car
     color: rgb(95, 16, 16);
     font-family: inherit !important;
 }
@@ -50,6 +51,7 @@
         grid-area: 1 / -1;
     }
 
+    // arrow to pass the slide
     >button {
         appearance: none;
         background: transparent;
@@ -73,18 +75,19 @@
         }
 
         &:first-child {
-            left: 30%;
+            left: 20%;
         }
 
         &:last-child {
-            right: 30%;
+            right: 20%;
         }
     }
 }
 
+// one slide of car
 .slideContent {
-    width: 20vw;
-    height: 20vw;
+    width: 50vw; // width of the slide // modifie la largeur de la slide
+    height: 20vw; // height of the slide // modifie la hauteur de la slide
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;

@@ -1,20 +1,27 @@
 import { SetStateAction, useState } from "react";
 import styles from "@/styles/Comp.module.css";
 
+//Name = Name of the Card
+//img = picture of the name
+//link = link of the card
+//bgColor = Background of the card
+//colorText = Color of the name
+// Language information
 const badgesData_language = [
   {
     name: "TypeScript",
-    image: "../badge/language/TypeScript.webp",
+    img: "../badge/language/TypeScript.webp",
     link: "#",
     bgColor: "#f9b234",
     colorText: "red",
   },
 ];
 
+// Logiciel information
 const badgeData_Logiciel = [
   {
     name: "TypeScript2",
-    image: "../badge/language/TypeScript.webp",
+    img: "../badge/language/TypeScript.webp",
     link: "#",
     bgColor: "#f9b234",
     colorText: "red",
@@ -29,7 +36,7 @@ export default function Comp() {
 
   return (
     <>
-      <div className={styles.container}>
+      <div id="skills" className={styles.container}>
         <img src="../Comp.png" alt="Name" className={styles.image} />
         <div className={styles.double}>
           <div
@@ -46,7 +53,7 @@ export default function Comp() {
           </div>
         </div>
         <div>
-          {selectedText === "Language" && (
+          {selectedText === "Language" && ( // Language Section
             <div className={styles.pos}>
               <div className={styles.card}>
                 {badgesData_language.map((badge) => (
@@ -66,7 +73,7 @@ export default function Comp() {
 
                       <div className={styles.items_title}>{badge.name}</div>
                       <div className={styles.items_date_box}>
-                        <img src={badge.image} />
+                        <img src={badge.img} />
                         <p className={styles.items_date}>Projet Realise: {}</p>
                       </div>
                     </a>
@@ -75,7 +82,7 @@ export default function Comp() {
               </div>
             </div>
           )}
-          {selectedText === "Logiciel" && (
+          {selectedText === "Logiciel" && ( // Logiciel Section
             <div className={styles.pos}>
               <div className={styles.card}>
                 {badgeData_Logiciel.map((badge) => (
@@ -95,7 +102,7 @@ export default function Comp() {
 
                       <div className={styles.items_title}>{badge.name}</div>
                       <div className={styles.items_date_box}>
-                        <img src={badge.image} />
+                        <img src={badge.img} />
                         <p className={styles.items_date}>Projet Realise: {}</p>
                       </div>
                     </a>
