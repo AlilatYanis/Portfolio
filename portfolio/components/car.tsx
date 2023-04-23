@@ -4,16 +4,22 @@ import styles from "../styles/Car.module.scss";
 // definition of images and information to display
 const slides = [
   {
-    title: "Titre", // Titre
-    image: "./badge/language/typeScript.webp", // picture
+    title: "Hyrule castle", // Titre
+    image: "./castle.png", // picture
     lien: "/theForge", // link of project or page
     color: "#49B6FF", // color of Titre
   },
   {
-    title: "Titre",
-    image: "./favicon.ico",
+    title: "Recraft",
+    image: "./recraft.png",
     lien: "/theForge",
     color: "#49B6FF",
+  },
+  {
+    title: "Calendrier", // Titre
+    image: "./defietna.png", // picture
+    lien: "/theForge", // link of project or page
+    color: "#49B6FF", // color of Titre
   },
 ];
 
