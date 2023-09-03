@@ -18,7 +18,7 @@ export default function Mide() {
   return (
     <>
       <div className={styles.container}>
-        <p className={styles.title}>Bonjour, je suis</p>
+        <p className={styles.title}>Bonjour, je m'appelle</p>
         <img src="../Name.png" alt="Name" className={styles.image} />
         <p className={styles.text}>
           Je suis un developpeur passionne et enthousiaste en pleine formation
