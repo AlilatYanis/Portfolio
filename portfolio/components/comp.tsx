@@ -15,6 +15,13 @@ const badgesData_language = [
     bgColor: "#f9b234",
     colorText: "red",
   },
+  {
+    name: "Python",
+    img: "../badge/language/TypeScript.webp",
+    link: "#",
+    bgColor: "#f9b234",
+    colorText: "blue",
+  },
 ];
 
 // Logiciel information
